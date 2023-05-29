@@ -1,0 +1,3363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --green: #11584c;
+    --greenblack: #88bd2d;
+    --pink: #f7d4d7;
+}
+
+.volta_img_seja {
+    cursor: pointer;
+}
+
+.btn_cadastre_home,
+.btn_tenho_conta_home,
+.seja_bem_vindo__img,
+.seja_bem_vindo__imga {
+
+    cursor: pointer;
+}
+
+.psicologia_pccp img {
+    cursor: pointer;
+}
+
+.closer_minhas_consultas_a {
+    cursor: pointer;
+}
+
+.cancelar_minhas_consultas_a {
+    cursor: pointer;
+}
+
+.reagendar_minhas_consultas {
+    cursor: pointer;
+}
+
+.volta_seja {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: -17px;
+    height: 10px;
+    z-index: 1000000000;
+    position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #88bd2d;
+    border-radius: 55px;
+}
+
+::-webkit-scrollbar-track {
+    background: #11584c;
+}
+
+@media screen and (min-width:280px) {
+
+
+
+    .seja_bem_vindo_aside_h8 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    #aside_pagamento2 {
+        width: 0;
+    }
+
+    .seja_bem_vindo_aside_h7 {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 0;
+    }
+
+    .seja_bem_vindo_h2_h5 {
+        margin: 0 0 0 10px;
+    }
+
+    .seja_bem_vindo_h2_h6 {
+        margin: 0 0 10px 10px;
+    }
+
+    .seja_bem_vindo h6 {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 10px;
+    }
+
+    .seja_bem_vindo h5 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0 0 0 10px;
+    }
+
+    /* psicologos */
+
+    .carrossel_psicologos_1 {
+        background-color: var(--green);
+        width: 140px;
+        height: 310px;
+        padding: 10px;
+    }
+
+    .info_psicologos img {
+        width: 100%;
+        max-width: 30px;
+    }
+
+    .article_psicologos {
+        margin: 20px 0 0 5px;
+    }
+
+    .article_psicologos h2,
+    .article_psicologos h3 {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .circle_psicologos {
+        width: 130px;
+        height: 130px;
+        z-index: 10000000000;
+        position: relative;
+        background-color: var(--greenblack);
+        border-radius: 200px;
+        margin: 51px 0 0 45px;
+    }
+
+    .seja_bem_vindo_asd {
+        display: flex;
+        overflow: auto;
+        width: 315px;
+    }
+
+    .carrossel_psicologos2 {
+        margin-left: 60px;
+    }
+
+    #circle_psicologos1 {
+        width: 185px;
+        height: 200px;
+        top: 200px;
+        margin-top: -200px;
+        margin-right: -100px;
+        position: relative;
+    }
+
+    #circle_psicologos2 {
+        width: 185px;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        z-index: 1000000000000000000;
+        margin-top: -200px;
+        margin-right: -100px;
+    }
+
+    #circle_psicologos3 {
+        width: 185px;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        z-index: 1000000000000000000;
+        margin-top: -200px;
+        margin-right: -100px;
+    }
+
+    #menu_circle_psicologos1,
+    #menu_circle_psicologos2,
+    #menu_circle_psicologos3 {
+        z-index: 1000000000;
+        position: relative;
+        margin-top: 15px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    #menu_circle_psicologos1:checked~.menu_circle_psicologos_icon1 {
+        background-color: var(--greenblack);
+    }
+
+    .menu_circle_psicologos_icon1 {
+        background-color: var(--green);
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px 0 0 -3px;
+        position: relative;
+    }
+
+    #menu_circle_psicologos2:checked~.menu_circle_psicologos_icon2 {
+        background-color: var(--greenblack);
+    }
+
+    #menu_circle_psicologos2 {
+        margin: 0 5px;
+    }
+
+    .menu_circle_psicologos_icon2 {
+        background-color: var(--green);
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px 0 0 19px;
+        position: relative;
+    }
+
+    #menu_circle_psicologos3:checked~.menu_circle_psicologos_icon3 {
+        background-color: var(--greenblack);
+    }
+
+    .menu_circle_psicologos_icon3 {
+        background-color: var(--green);
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px 0 0 40px;
+        position: relative;
+    }
+
+
+
+    /* psicologos */
+
+
+
+    /* home */
+
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 130% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-position: 40%;
+    }
+
+    .btn_all_home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0 -60px 0;
+    }
+
+    .btn_all_home button {
+        background-color: #11584c;
+        border: 0;
+        padding: 10px 0;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .logo_home {
+        max-width: 170px;
+        width: 100%;
+        /* margin-bottom: 130px; */
+        margin: -21px 0 0 0;
+    }
+
+    /* home */
+
+    /* login */
+
+    .btn_esqueci_home {
+        color: var(--green);
+        font-size: 0.8rem;
+        font-weight: 500;
+        top: 455px;
+        text-decoration: none;
+    }
+
+    .btn_texto_login_home {
+        color: var(--green);
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 20px 0 11px 0;
+    }
+
+    .btn_cpf_home::placeholder {
+        color: #ffffff9c;
+        font-weight: 400;
+    }
+
+    .btn_cpf_home {
+        background-color: var(--green);
+        border: 0;
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    /* login */
+
+    /* seja_bem_vindo */
+
+    .btn_seja_bem_vindo_home::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .seja_bem_vindo_aside_4 {
+        margin-right: 180px;
+    }
+
+    .btn_seja_bem_vindo_home {
+        background-color: #e5e7ea;
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: green;
+        margin-bottom: 10px;
+    }
+
+    .seja_bem_vindo_aside_h2 {
+        width: 160px;
+    }
+
+    .seja_bem_vindo h2 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .seja_bem_vindo h3 {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 0;
+    }
+
+    .seja_bem_vindo_h2_h2 {
+        width: 200px;
+    }
+
+    .seja_bem_vindo_2-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 246.078px;
+    }
+
+    .seja_bem_vindo_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
+
+    .seja_bem_vindo {
+        margin: auto;
+        inset: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .volta_img_seja {
+        max-width: 25px;
+        width: 100%;
+        margin: 20px 15px;
+        z-index: 7;
+        position: absolute;
+    }
+
+
+    .volta_img_sejaa {
+        max-width: 25px;
+        width: 100%;
+        margin: 20px 15px;
+    }
+
+    .volta_seja {
+        max-width: 25px;
+        width: 100%;
+        transform: rotate(180deg);
+        margin-top: 60px;
+        z-index: 3;
+        position: absolute;
+    }
+
+    /* seja_bem_vindo */
+
+    /* busque_por */
+    .estado_busque_por::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .estado_busque_por {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .cidade_busque_por,
+    .estado_busque_por {
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cidade_busque_por::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .cidade_busque_por {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    /* busque_por */
+
+    /* para_qual_dia */
+    .dia_para_qual_dia::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .dia_para_qual_dia {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .horario_para_qual_dia,
+    .dia_para_qual_dia {
+        cursor: pointer;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dia_para_qual_dia::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .horario_para_qual_dia {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .horario_para_qual_dia_opena {
+        width: 191px;
+        height: 180px;
+        background-color: var(--green);
+        z-index: 1;
+        position: absolute;
+        /* margin: 167px 0 0 64px; */
+        border-radius: 15px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 110px 0 0 0;
+        position: absolute;
+    }
+
+    .horario_para_qual_dia_open {
+        width: 191px;
+        height: 180px;
+        background-color: var(--green);
+        z-index: 1;
+        position: absolute;
+        /* margin: 167px 0 0 64px; */
+        border-radius: 15px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        inset: 110px 0 0 0;
+    }
+
+    .maio_right {
+        margin: 0 75px 0 0px;
+    }
+
+    .maio_hora {
+        color: #fff;
+    }
+
+    .bg_para_qual_diaa {
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        margin: -68px 0 0 0;
+        display: none;
+    }
+
+    .bg_para_qual_dia {
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        margin: -68px 0 0 0;
+        display: none;
+    }
+
+    .mes6 {
+        margin: 0 0 0 -70px;
+    }
+
+    .mes2 {
+        margin: 0 0 0 -10px;
+    }
+
+    .mes1,
+    .mes2,
+    .mes3,
+    .mes4,
+    .mes5,
+    .mes6 {
+        display: flex;
+    }
+
+    .mes1 p {
+        color: #fff;
+        margin: 0 7.7px;
+        inset: 0 0 0 0;
+    }
+
+    .mes2 p {
+        color: #fff;
+        margin: 0 0 0 17px;
+    }
+
+    .mes3 p {
+        color: #fff;
+        margin: 0 0 0 10px;
+    }
+
+    /* .mes4 p:nth-child(6) {
+        color: #fff;
+        margin: 0 0px;
+        background-color: var(--greenblack);
+        border-radius: 210px;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -2.7px 0 -2px 0;
+    } */
+
+    .mes4 p {
+        color: #fff;
+        margin: 0 3.9px;
+    }
+
+    .mes5 p {
+        color: #fff;
+        margin: 0 3.9px;
+    }
+
+    .mes6 p {
+        color: #fff;
+        margin: 0 3.9px;
+    }
+
+    .mes {
+        display: flex;
+        color: #fff;
+        margin: -5px 0 5px 0;
+    }
+
+    .mes0 {
+        display: flex;
+        color: #fff;
+        margin: -5px 0 5px;
+    }
+
+    .maio {
+        margin: 0 50px 0 10px;
+    }
+
+    /* para_qual_dia */
+
+    /* para_qual_dia_marcado */
+    .dia_para_qual_dia_marcado::placeholder,
+    .dia_para_qual_dia_marcado::placeholder {
+
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .horario_para_qual_dia_marcado,
+    .dia_para_qual_dia_marcado {
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    /* para_qual_dia_marcado */
+
+    /* sua_consulta */
+
+    .article_sua_consulta {
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin-right: 40px;
+        color: var(--green);
+    }
+
+    .maio_sua_consulta {
+        background-color: var(--greenblack);
+        border: var(--greenblack);
+    }
+
+    .dr_sua_consulta {
+        background-color: var(--green);
+        border: var(--green);
+    }
+
+    .dr_sua_consulta,
+    .maio_sua_consulta {
+        color: var(--green);
+        font-weight: 400;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    /* sua_consulta */
+
+    /* pagamento */
+
+    .bg_pagamento {
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff40;
+        z-index: 5;
+        position: absolute;
+
+        display: none;
+    }
+
+    .modal_img {
+        align-items: center;
+        justify-content: center;
+        inset: 80px 0 0 0;
+        position: absolute;
+        margin: auto;
+        flex-direction: column;
+
+        display: none;
+    }
+
+    .aside_pagamento_h22 {
+        margin: 0 0 0 5px;
+    }
+
+    .aside_pagamento_h232 {
+        margin: 0 0 10px 5px;
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    #aside_pagamento {
+        width: 246px;
+    }
+
+    #aside_pagamento h2 {
+        width: 257px;
+    }
+
+    #aside_pagamento h3 {
+        width: 190px;
+        margin-bottom: 10px;
+    }
+
+    .seja_bem_vindo_pagaa {
+        color: var(--green);
+        font-size: 1.3rem;
+        margin: 0 0 0 10px;
+    }
+
+    .seja_bem_vindo_paga {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 10px;
+        width: 180px;
+    }
+
+    .seja_bem_vindo__imga {
+        max-width: 25px;
+        width: 100%;
+        margin-left: 170px;
+        margin-top: 360px;
+        transform: rotate(180deg);
+        z-index: 22;
+        position: absolute;
+    }
+
+    .seja_bem_vindo__img {
+        max-width: 25px;
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 370px;
+        transform: rotate(180deg);
+        z-index: 22;
+        position: absolute;
+    }
+
+    .qr_pagamento {
+        max-width: 230px;
+        width: 100%;
+        z-index: 6;
+        position: absolute;
+    }
+
+    /* pagamento */
+
+    /* minhas_consultas */
+
+    .agendadas_minhas_consultas {
+        background-color: var(--green);
+        border: var(--green);
+        font-weight: 400;
+        height: 35px;
+        align-items: center;
+        padding: 0px 15px;
+        border-radius: 50px;
+        width: 175px;
+        color: #fff;
+        margin-bottom: 10px;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .agendadas_minhas_consultas article p {
+        font-size: 0.7rem;
+    }
+
+    .add_minhas_consultas {
+        max-width: 40px;
+        width: 100%;
+        margin: 0 -100px 0px 15px;
+    }
+
+    .closer_minhas_consultas_a {
+        max-width: 40px;
+        width: 100%;
+        margin: 0 -100px 0px 15px;
+    }
+
+    .alert_minhas_consultas_a {
+        background-color: #ffffff73;
+        margin: -66px 0 0 0;
+        width: 100%;
+        height: 99vh;
+        z-index: 100000000;
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 0;
+        position: absolute;
+    }
+
+    .alert_minhas_consultas_b {
+        background-color: #ffffff73;
+        margin: -66px 0 0 0;
+        width: 100%;
+        height: 99vh;
+        z-index: 100000000;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 0;
+        position: absolute;
+        display: none;
+    }
+
+    .alerta_fechar_consultas p {
+        text-align: left;
+        padding: 15px 40px 15px 25px;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    .alerta_fechar_consultas_a p {
+        text-align: center;
+        padding: 30px;
+        color: #fff;
+    }
+
+    .alerta_fechar_consultas_a {
+        background-color: var(--green);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+
+    .alerta_fechar_consultas {
+        background-color: var(--green);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+
+    .btn_alert_minhas_consultas {
+        display: flex;
+    }
+
+    .cancelar_minhas_consultas_a {
+        background-color: var(--greenblack);
+        border: 0;
+        padding: 15px;
+        border-radius: 0 0 0 19px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100px;
+    }
+
+    .reagendar_minhas_consultas {
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: var(--green);
+        border: 0;
+        padding: 15px;
+        border-radius: 300px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100px;
+    }
+
+    .article_minhas_consultas {
+        margin: 0 0 0 10px;
+    }
+
+    .aside_minhas_consultas {
+        display: flex;
+    }
+
+    .article_minhas_consultas p {
+        font-size: 0.56rem;
+        color: var(--green);
+    }
+
+    /* minhas_consultas */
+
+    /* pccp */
+
+    .pccp_header {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px 15px;
+    }
+
+    .bg_pccp {
+        background-color: #ffffff7c;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1000000;
+        margin: -65px 0 0 0;
+        display: none;
+        z-index: 2;
+        position: absolute;
+        transition: ease-in-out 2s;
+
+    }
+
+    .hamburguer {
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        transition: ease-in-out 2s;
+    }
+
+
+    .modal {
+        background-color: var(--green);
+        width: 209px;
+        height: 200px;
+        z-index: 10000000000;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 25px 25px;
+        padding: 10px 25px;
+        color: #fff;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        justify-content: space-around;
+        z-index: 1000000000000000000000000000000;
+        position: absolute;
+        transition: ease-in-out 2s;
+    }
+
+    .hamburguer:hover {
+        background-color: #c9c9c9;
+    }
+
+    .hamburguer1,
+    .hamburguer2,
+    .hamburguer3 {
+        background-color: var(--green);
+        width: 30px;
+        height: 4px;
+        border-radius: 5000px;
+        margin-bottom: 3px;
+    }
+
+    .hamburguer3 {
+        margin-bottom: 0;
+    }
+
+    .logo_pccp {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .psicologia_pccp p {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: var(--green);
+    }
+
+    .psicologia_pccp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .psicologia_pccp img {
+        max-width: 90px;
+        width: 100%;
+    }
+
+    .pccp_main {
+        margin-top: 40px;
+    }
+
+    .pccp_1_main {
+        margin-bottom: 10px;
+    }
+
+    .pccp_1_main,
+    .pccp_2_main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list_menu_pccp a:hover {
+        text-decoration: double;
+    }
+
+    .list_menu_pccp a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .list_menu_pccp {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_profile_pccp p {
+        margin-left: 8px;
+        font-size: 0.8rem;
+    }
+
+    .profile_pccp {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .photo img:nth-child(1) {
+        max-width: 60px;
+    }
+
+    .photo img:nth-child(2) {
+        max-width: 14px;
+        position: absolute;
+        z-index: 1111111111111;
+        inset: 65px 0 0 75px;
+    }
+
+    .photo {
+        border-radius: 1000px;
+    }
+
+    /* pccp */
+
+}
+
+@media screen and (min-width:320px) {
+
+
+
+    .seja_bem_vindo_aside_h8 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    #aside_pagamento2 {
+        width: 0;
+    }
+
+    .seja_bem_vindo_aside_h7 {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 0;
+    }
+
+    .seja_bem_vindo_h2_h5 {
+        margin: 0 0 0 10px;
+    }
+
+    .seja_bem_vindo_h2_h6 {
+        margin: 0 0 10px 10px;
+    }
+
+    .seja_bem_vindo h6 {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 10px;
+    }
+
+    .seja_bem_vindo h5 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0 0 0 10px;
+    }
+
+    /* psicologos */
+
+    .carrossel_psicologos_1 {
+        background-color: var(--green);
+        width: 140px;
+        height: 310px;
+        padding: 10px;
+    }
+
+    .info_psicologos img {
+        width: 100%;
+        max-width: 30px;
+    }
+
+    .article_psicologos {
+        margin: 20px 0 0 5px;
+    }
+
+    .article_psicologos h2,
+    .article_psicologos h3 {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .circle_psicologos {
+        width: 130px;
+        height: 130px;
+        z-index: 10000000000;
+        position: relative;
+        background-color: var(--greenblack);
+        border-radius: 200px;
+        margin: 51px 0 0 45px;
+    }
+
+    .seja_bem_vindo_asd {
+        display: flex;
+        overflow: auto;
+        width: 315px;
+    }
+
+    .carrossel_psicologos2 {
+        margin-left: 60px;
+    }
+
+    #circle_psicologos1 {
+        width: 185px;
+        height: 200px;
+        top: 200px;
+        margin-top: -200px;
+        margin-right: -100px;
+        position: relative;
+    }
+
+    #circle_psicologos2 {
+        width: 185px;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        z-index: 1000000000000000000;
+        margin-top: -200px;
+        margin-right: -100px;
+    }
+
+    #circle_psicologos3 {
+        width: 185px;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        z-index: 1000000000000000000;
+        margin-top: -200px;
+        margin-right: -100px;
+    }
+
+    #menu_circle_psicologos1,
+    #menu_circle_psicologos2,
+    #menu_circle_psicologos3 {
+        z-index: 1000000000;
+        position: relative;
+        margin-top: 15px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    #menu_circle_psicologos1:checked~.menu_circle_psicologos_icon1 {
+        background-color: var(--greenblack);
+    }
+
+    .menu_circle_psicologos_icon1 {
+        background-color: var(--green);
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px 0 0 -3px;
+        position: relative;
+    }
+
+    #menu_circle_psicologos2:checked~.menu_circle_psicologos_icon2 {
+        background-color: var(--greenblack);
+    }
+
+    #menu_circle_psicologos2 {
+        margin: 0 5px;
+    }
+
+    .menu_circle_psicologos_icon2 {
+        background-color: var(--green);
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px 0 0 19px;
+        position: relative;
+    }
+
+    #menu_circle_psicologos3:checked~.menu_circle_psicologos_icon3 {
+        background-color: var(--greenblack);
+    }
+
+    .menu_circle_psicologos_icon3 {
+        background-color: var(--green);
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px 0 0 40px;
+        position: relative;
+    }
+
+
+
+    /* psicologos */
+
+
+
+    /* home */
+
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 100% 100%;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .btn_all_home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0 -60px 0;
+    }
+
+    .btn_all_home button {
+        background-color: #11584c;
+        border: 0;
+        padding: 10px 0;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .logo_home {
+        max-width: 170px;
+        width: 100%;
+        /* margin-bottom: 130px; */
+        margin: -21px 0 0 0;
+    }
+
+    /* home */
+
+    /* login */
+
+    .btn_esqueci_home {
+        color: var(--green);
+        font-size: 0.8rem;
+        font-weight: 500;
+        top: 455px;
+        text-decoration: none;
+    }
+
+    .btn_texto_login_home {
+        color: var(--green);
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 20px 0 11px 0;
+    }
+
+    .btn_cpf_home::placeholder {
+        color: #ffffff9c;
+        font-weight: 400;
+    }
+
+    .btn_cpf_home {
+        background-color: var(--green);
+        border: 0;
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    /* login */
+
+    /* seja_bem_vindo */
+
+    .btn_seja_bem_vindo_home::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .seja_bem_vindo_aside_4 {
+        margin-right: 180px;
+    }
+
+    .btn_seja_bem_vindo_home {
+        background-color: #e5e7ea;
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: green;
+        margin-bottom: 10px;
+    }
+
+    .seja_bem_vindo_aside_h2 {
+        width: 160px;
+    }
+
+    .seja_bem_vindo h2 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .seja_bem_vindo h3 {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 0;
+    }
+
+    .seja_bem_vindo_h2_h2 {
+        width: 200px;
+    }
+
+    .seja_bem_vindo_2-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 246.078px;
+    }
+
+    .seja_bem_vindo_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+
+
+    .seja_bem_vindo {
+        margin: auto;
+        inset: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .volta_img_seja {
+        max-width: 25px;
+        width: 100%;
+        margin: 20px 15px;
+        z-index: 7;
+        position: absolute;
+    }
+
+
+    .volta_img_sejaa {
+        max-width: 25px;
+        width: 100%;
+        margin: 20px 15px;
+    }
+
+    .volta_seja {
+        max-width: 25px;
+        width: 100%;
+        transform: rotate(180deg);
+        margin-top: 60px;
+        z-index: 3;
+        position: absolute;
+    }
+
+    /* seja_bem_vindo */
+
+    /* busque_por */
+    .estado_busque_por::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .estado_busque_por {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .cidade_busque_por,
+    .estado_busque_por {
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cidade_busque_por::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .cidade_busque_por {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    /* busque_por */
+
+    /* para_qual_dia */
+    .dia_para_qual_dia::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .dia_para_qual_dia {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .horario_para_qual_dia,
+    .dia_para_qual_dia {
+        cursor: pointer;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dia_para_qual_dia::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .horario_para_qual_dia {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .horario_para_qual_dia_opena {
+        width: 191px;
+        height: 180px;
+        background-color: var(--green);
+        z-index: 1;
+        position: absolute;
+        /* margin: 167px 0 0 64px; */
+        border-radius: 15px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 110px 0 0 0;
+        position: absolute;
+    }
+
+    .horario_para_qual_dia_open {
+        width: 191px;
+        height: 180px;
+        background-color: var(--green);
+        z-index: 1;
+        position: absolute;
+        /* margin: 167px 0 0 64px; */
+        border-radius: 15px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        inset: 110px 0 0 0;
+    }
+
+    .maio_right {
+        margin: 0 75px 0 0px;
+    }
+
+    .maio_hora {
+        color: #fff;
+    }
+
+    .bg_para_qual_diaa {
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        margin: -68px 0 0 0;
+        display: none;
+    }
+
+    .bg_para_qual_dia {
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        margin: -68px 0 0 0;
+        display: none;
+    }
+
+    .mes6 {
+        margin: 0;
+    }
+
+    .mes2 {
+        margin: 0;
+    }
+
+    .mes1,
+    .mes2,
+    .mes3,
+    .mes4,
+    .mes5,
+    .mes6 {
+        display: flex;
+    }
+
+    .mes1 p {
+        color: #fff;
+        margin: 0;
+        width: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mes2 p {
+        color: #fff;
+        margin: 0;
+        width: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mes3 p {
+        color: #fff;
+        margin: 0;
+        width: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mes4 p {
+        color: #fff;
+        margin: 0;
+        width: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mes5 p {
+        color: #fff;
+        margin: 0;
+        width: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mes6 p {
+        color: #fff;
+        margin: 0;
+        width: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mes {
+        display: flex;
+        color: #fff;
+        margin: 0;
+    }
+
+    .mes0 {
+        display: flex;
+        color: #fff;
+        margin: 0;
+    }
+
+    .maio {
+        margin: 0;
+    }
+
+    /* para_qual_dia */
+
+    /* para_qual_dia_marcado */
+    .dia_para_qual_dia_marcado::placeholder,
+    .dia_para_qual_dia_marcado::placeholder {
+
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .horario_para_qual_dia_marcado,
+    .dia_para_qual_dia_marcado {
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    /* para_qual_dia_marcado */
+
+    /* sua_consulta */
+
+    .article_sua_consulta {
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin-right: 40px;
+        color: var(--green);
+    }
+
+    .maio_sua_consulta {
+        background-color: var(--greenblack);
+        border: var(--greenblack);
+    }
+
+    .dr_sua_consulta {
+        background-color: var(--green);
+        border: var(--green);
+    }
+
+    .dr_sua_consulta,
+    .maio_sua_consulta {
+        color: var(--green);
+        font-weight: 400;
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    /* sua_consulta */
+
+    /* pagamento */
+
+    .bg_pagamento {
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff40;
+        z-index: 5;
+        position: absolute;
+
+        display: none;
+    }
+
+    .modal_img {
+        align-items: center;
+        justify-content: center;
+        inset: 80px 0 0 0;
+        position: absolute;
+        margin: auto;
+        flex-direction: column;
+
+        display: none;
+    }
+
+    .aside_pagamento_h22 {
+        margin: 0 0 0 5px;
+    }
+
+    .aside_pagamento_h232 {
+        margin: 0 0 10px 5px;
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+
+    #aside_pagamento {
+        width: 246px;
+    }
+
+    #aside_pagamento h2 {
+        width: 257px;
+    }
+
+    #aside_pagamento h3 {
+        width: 190px;
+        margin-bottom: 10px;
+    }
+
+    .seja_bem_vindo_pagaa {
+        color: var(--green);
+        font-size: 1.3rem;
+        margin: 0 0 0 10px;
+    }
+
+    .seja_bem_vindo_paga {
+        color: var(--green);
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 10px;
+        width: 180px;
+    }
+
+    .seja_bem_vindo__imga {
+        max-width: 25px;
+        width: 100%;
+        margin-left: 170px;
+        margin-top: 360px;
+        transform: rotate(180deg);
+        z-index: 22;
+        position: absolute;
+    }
+
+    .seja_bem_vindo__img {
+        max-width: 25px;
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 370px;
+        transform: rotate(180deg);
+        z-index: 22;
+        position: absolute;
+    }
+
+    .qr_pagamento {
+        max-width: 230px;
+        width: 100%;
+        z-index: 6;
+        position: absolute;
+    }
+
+    /* pagamento */
+
+    /* minhas_consultas */
+
+    .agendadas_minhas_consultas {
+        background-color: var(--green);
+        border: var(--green);
+        font-weight: 400;
+        height: 35px;
+        align-items: center;
+        padding: 0px 15px;
+        border-radius: 50px;
+        width: 175px;
+        color: #fff;
+        margin-bottom: 10px;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .agendadas_minhas_consultas article p {
+        font-size: 0.7rem;
+    }
+
+    .add_minhas_consultas {
+        max-width: 40px;
+        width: 100%;
+        margin: 0 -100px 0px 15px;
+    }
+
+    .closer_minhas_consultas_a {
+        max-width: 40px;
+        width: 100%;
+        margin: 0 -100px 0px 15px;
+    }
+
+    .alert_minhas_consultas_a {
+        background-color: #ffffff73;
+        margin: -66px 0 0 0;
+        width: 100%;
+        height: 99vh;
+        z-index: 100000000;
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 0;
+        position: absolute;
+    }
+
+    .alert_minhas_consultas_b {
+        background-color: #ffffff73;
+        margin: -66px 0 0 0;
+        width: 100%;
+        height: 99vh;
+        z-index: 100000000;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 0;
+        position: absolute;
+        display: none;
+    }
+
+    .alerta_fechar_consultas p {
+        text-align: left;
+        padding: 15px 40px 15px 25px;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    .alerta_fechar_consultas_a p {
+        text-align: center;
+        padding: 30px;
+        color: #fff;
+    }
+
+    .alerta_fechar_consultas_a {
+        background-color: var(--green);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+
+    .alerta_fechar_consultas {
+        background-color: var(--green);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+
+    .btn_alert_minhas_consultas {
+        display: flex;
+    }
+
+    .cancelar_minhas_consultas_a {
+        background-color: var(--greenblack);
+        border: 0;
+        padding: 15px;
+        border-radius: 0 0 0 19px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100px;
+    }
+
+    .reagendar_minhas_consultas {
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: var(--green);
+        border: 0;
+        padding: 15px;
+        border-radius: 300px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100px;
+    }
+
+    .article_minhas_consultas {
+        margin: 0 0 0 10px;
+    }
+
+    .aside_minhas_consultas {
+        display: flex;
+    }
+
+    .article_minhas_consultas p {
+        font-size: 0.56rem;
+        color: var(--green);
+    }
+
+    /* minhas_consultas */
+
+    /* pccp */
+
+    .pccp_header {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px 15px;
+    }
+
+    .bg_pccp {
+        background-color: #ffffff7c;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1000000;
+        margin: -65px 0 0 0;
+        display: none;
+        z-index: 2;
+        position: absolute;
+        transition: ease-in-out 2s;
+
+    }
+
+    .hamburguer {
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        transition: ease-in-out 2s;
+    }
+
+
+    .modal {
+        background-color: var(--green);
+        width: 209px;
+        height: 200px;
+        z-index: 10000000000;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 25px 25px;
+        padding: 10px 25px;
+        color: #fff;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        justify-content: space-around;
+        z-index: 1000000000000000000000000000000;
+        position: absolute;
+        transition: ease-in-out 2s;
+    }
+
+    .hamburguer:hover {
+        background-color: #c9c9c9;
+    }
+
+    .hamburguer1,
+    .hamburguer2,
+    .hamburguer3 {
+        background-color: var(--green);
+        width: 30px;
+        height: 4px;
+        border-radius: 5000px;
+        margin-bottom: 3px;
+    }
+
+    .hamburguer3 {
+        margin-bottom: 0;
+    }
+
+    .logo_pccp {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .psicologia_pccp p {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: var(--green);
+    }
+
+    .psicologia_pccp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .psicologia_pccp img {
+        max-width: 90px;
+        width: 100%;
+    }
+
+    .pccp_main {
+        margin-top: 40px;
+    }
+
+    .pccp_1_main {
+        margin-bottom: 10px;
+    }
+
+    .pccp_1_main,
+    .pccp_2_main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list_menu_pccp a:hover {
+        text-decoration: double;
+    }
+
+    .list_menu_pccp a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .list_menu_pccp {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_profile_pccp p {
+        margin-left: 8px;
+        font-size: 0.8rem;
+    }
+
+    .profile_pccp {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .photo img:nth-child(1) {
+        max-width: 60px;
+    }
+
+    .photo img:nth-child(2) {
+        max-width: 14px;
+        position: absolute;
+        z-index: 1111111111111;
+        inset: 65px 0 0 75px;
+    }
+
+    .photo {
+        border-radius: 1000px;
+    }
+
+    /* pccp */
+
+}
+
+@media screen and (min-width:375px) {
+
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 120% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-position: 35%;
+    }
+}
+
+@media screen and (min-width:380px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 100% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-position: 40%;
+    }
+}
+
+@media screen and (min-width:412px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 130% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-position: 40%;
+    }
+}
+
+@media screen and (min-width:420px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 120% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-position: 40%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    #aside_pagamento {
+        width: 371px;
+    }
+
+    .seja_bem_vindo_pagaa {
+        color: var(--green);
+        font-size: 2rem;
+        margin: 0 0 0 10px;
+    }
+
+    .seja_bem_vindo h5 {
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin: 0 0 0 15px;
+    }
+
+    .aside_pagamento_h232 {
+        margin: 0 0 10px 15px;
+        color: var(--green);
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .seja_bem_vindo_paga {
+        color: var(--green);
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 10px;
+        width: 230px;
+        line-height: 15px;
+    }
+
+    .seja_bem_vindo h6 {
+        color: var(--green);
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0 -30px 10px 15px;
+    }
+
+    .seja_bem_vindo__imga {
+        max-width: 35px;
+        width: 100%;
+        margin-left: 265px;
+        margin-top: 440px;
+        transform: rotate(180deg);
+        z-index: 22;
+        position: absolute;
+    }
+
+    /* home */
+
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 100% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+
+    .btn_all_home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0 -60px 0;
+    }
+
+    .btn_all_home button {
+        background-color: #11584c;
+        border: 0;
+        padding: 10px 0;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .logo_home {
+        max-width: 170px;
+        width: 100%;
+        /* margin-bottom: 130px; */
+        margin: -21px 0 0 0;
+    }
+
+    /* home */
+
+    /* login */
+
+    .btn_esqueci_home {
+        color: var(--green);
+        font-size: 0.8rem;
+        font-weight: 500;
+        top: 455px;
+        text-decoration: none;
+    }
+
+    .btn_texto_login_home {
+        color: var(--green);
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 20px 0 11px 0;
+    }
+
+    .btn_cpf_home::placeholder {
+        color: #ffffff9c;
+        font-weight: 400;
+    }
+
+    .btn_cpf_home {
+        background-color: var(--green);
+        border: 0;
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    /* login */
+
+    /* seja_bem_vindo */
+
+    .btn_seja_bem_vindo_home::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .btn_seja_bem_vindo_home {
+        background-color: #e5e7ea;
+        border: 1px solid var(--green);
+        padding: 15px 22px;
+        border-radius: 80px;
+        color: var(--green);
+        width: 301px;
+        margin-bottom: 10px;
+    }
+
+    .seja_bem_vindo h2 {
+        color: var(--green);
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-left: 15px;
+        width: 286px;
+    }
+
+    .seja_bem_vindo h3 {
+        color: var(--green);
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .seja_bem_vindo_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 0 0 0 -1px;
+        width: 246.078px;
+        margin: 0 0 0px 55px;
+    }
+
+    .article_minhas_consultasaa {
+        margin: 2px -210px 0 10px;
+    }
+
+    .seja_bem_vindo_2-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 246.078px;
+        margin: 0 0 0px 7px;
+    }
+
+    .seja_bem_vindo {
+        margin: auto;
+        inset: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .seja_bem_vindo_aside_h2 {
+        width: 242px;
+    }
+
+    .volta_img_seja {
+        max-width: 35px;
+        width: 100%;
+        margin: 20px 15px;
+        z-index: 7;
+        position: absolute;
+    }
+
+    .volta_seja {
+        max-width: 35px;
+        width: 100%;
+        transform: rotate(180deg);
+        margin-top: 70px;
+        z-index: 3;
+        position: absolute;
+    }
+
+    /* seja_bem_vindo */
+
+    /* busque_por */
+    .estado_busque_por::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .estado_busque_por {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .cidade_busque_por,
+    .estado_busque_por {
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cidade_busque_por::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .cidade_busque_por {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 20px;
+        width: 190px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    /* busque_por */
+
+    /* para_qual_dia */
+    .dia_para_qual_dia::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .dia_para_qual_dia {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 70px;
+        width: 300px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .horario_para_qual_dia,
+    .dia_para_qual_dia {
+        cursor: pointer;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dia_para_qual_dia::placeholder {
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .horario_para_qual_dia {
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 100px;
+        width: 300px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .horario_para_qual_dia_opena {
+        width: 300px;
+        height: 300px;
+        background-color: var(--green);
+        z-index: 1;
+        position: absolute;
+        /* margin: 167px 0 0 64px; */
+        border-radius: 15px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 110px 0 0 0;
+        position: absolute;
+    }
+
+    .horario_para_qual_dia_open {
+        width: 300px;
+        height: 300px;
+        background-color: var(--green);
+        z-index: 1;
+        position: absolute;
+        /* margin: 167px 0 0 64px; */
+        border-radius: 15px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        position: absolute;
+        inset: 110px 0 0 0;
+    }
+
+    .maio_right .maio_hora {
+        color: #fff;
+    }
+
+    .bg_para_qual_diaa {
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        margin: -68px 0 0 0;
+        display: none;
+    }
+
+    .bg_para_qual_dia {
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: absolute;
+        margin: -68px 0 0 0;
+        display: none;
+    }
+
+    .mes1 {
+        margin: 0;
+    }
+
+    .mes2 {
+        margin: 0;
+    }
+
+    .mes3 {
+        margin: 0;
+    }
+
+    .mes4 {
+        margin: 0;
+    }
+
+    .mes5 {
+        margin: 0;
+    }
+
+    .mes6 {
+        margin: 0;
+    }
+
+    .mes1,
+    .mes2,
+    .mes3,
+    .mes4,
+    .mes5,
+    .mes6 {
+        display: flex;
+    }
+
+    .mes {
+        display: flex;
+        color: #fff;
+        margin: -5px 0 5px 0;
+    }
+
+    .mes0 {
+        display: flex;
+        color: #fff;
+        margin: 0;
+    }
+
+    .mes1 p {
+        color: #fff;
+        margin: 0;
+        inset: 0;
+        width: 40px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .mes2 p {
+        color: #fff;
+        margin: 0;
+        width: 40px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .mes3 p {
+        color: #fff;
+        margin: 0;
+        width: 40px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .mes4 p {
+        color: #fff;
+        margin: 0;
+        width: 40px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .mes5 p {
+        color: #fff;
+        margin: 0;
+        width: 40px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .mes6 p {
+        color: #fff;
+        margin: 0;
+        width: 40px;
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .maio_hora:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .green {
+        background-color: var(--greenblack);
+        width: 35px;
+        height: 35px;
+        z-index: -1;
+        position: absolute;
+        inset: 170px 0 0 210px;
+        border-radius: 120px;
+    }
+
+    .mes,
+    .mes1,
+    .mes2,
+    .mes3,
+    .mes4,
+    .mes5,
+    .mes6,
+    .mes0,
+    .maio_hora {
+        cursor: pointer;
+        font-size: 1.7rem;
+        width: 259.766px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* para_qual_dia */
+
+    /* para_qual_dia_marcado */
+    .dia_para_qual_dia_marcado::placeholder,
+    .dia_para_qual_dia_marcado::placeholder {
+
+        color: var(--green);
+        font-weight: 400;
+    }
+
+    .horario_para_qual_dia_marcado,
+    .dia_para_qual_dia_marcado {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--green);
+        border: 1px solid var(--green);
+        padding: 10px 22px;
+        border-radius: 120px;
+        width: 300px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    /* para_qual_dia_marcado */
+
+    /* sua_consulta */
+
+    .article_sua_consulta {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0 115px 0 -100px;
+        color: var(--green);
+    }
+
+    .maio_sua_consulta {
+        background-color: var(--greenblack);
+        border: var(--greenblack);
+    }
+
+    .dr_sua_consulta {
+        background-color: var(--green);
+        border: var(--green);
+    }
+
+    .dr_sua_consulta,
+    .maio_sua_consulta {
+        color: var(--green);
+        font-weight: 400;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 22px;
+        border-radius: 110px;
+        width: 300px;
+        color: #fff;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    /* sua_consulta */
+
+    /* pagamento */
+
+    .bg_pagamento {
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff40;
+        z-index: 5;
+        position: absolute;
+
+        display: none;
+    }
+
+    .modal_img {
+        align-items: center;
+        justify-content: center;
+        inset: 80px 0 0 0;
+        position: absolute;
+        margin: auto;
+        flex-direction: column;
+
+        display: none;
+    }
+
+    #aside_pagamento h2 {
+        width: 310px;
+    }
+
+    #aside_pagamento h3 {
+        width: 190px;
+        margin-bottom: 10px;
+    }
+
+    .seja_bem_vindo__img {
+        max-width: 35px;
+        width: 100%;
+        margin-left: 282px;
+        margin-top: 455px;
+        transform: rotate(180deg);
+        z-index: 22;
+        position: absolute;
+    }
+
+    .qr_pagamento {
+        max-width: 335px;
+        width: 100%;
+        z-index: 6;
+        position: absolute;
+        margin: -50px 0 0 0;
+    }
+
+    /* pagamento */
+
+    /* minhas_consultas */
+
+    .agendadas_minhas_consultas {
+        background-color: var(--green);
+        border: var(--green);
+        font-weight: 400;
+        height: 50px;
+        align-items: center;
+        padding: 0px 15px;
+        border-radius: 50px;
+        width: 300px;
+        color: #fff;
+        margin-bottom: 10px;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .agendadas_minhas_consultas article p {
+        font-size: 0.7rem;
+    }
+
+    .add_minhas_consultas {
+        max-width: 55px;
+        width: 100%;
+        margin: 0 -100px 0px 125px;
+    }
+
+    .closer_minhas_consultas_a {
+        max-width: 55px;
+        width: 100%;
+        margin: 0 -100px 0px 125px;
+    }
+
+    .alert_minhas_consultas_a {
+        background-color: #ffffff73;
+        margin: -66px 0 0 0;
+        width: 100%;
+        height: 99vh;
+        z-index: 100000000;
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 0;
+        position: absolute;
+    }
+
+    .alert_minhas_consultas_b {
+        background-color: #ffffff73;
+        margin: -66px 0 0 0;
+        width: 100%;
+        height: 99vh;
+        z-index: 100000000;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        inset: 0;
+        position: absolute;
+        display: none;
+    }
+
+
+    .alerta_fechar_consultas_a p {
+        text-align: center;
+        padding: 40px 0;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .alerta_fechar_consultas_a {
+        background-color: var(--green);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+
+    .alerta_fechar_consultas {
+        background-color: var(--green);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+
+    .alerta_fechar_consultas p {
+        text-align: left;
+        padding: 20px 40px 20px 25px;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+
+    .btn_alert_minhas_consultas {
+        display: flex;
+    }
+
+    .cancelar_minhas_consultas_a {
+        background-color: var(--greenblack);
+        border: 0;
+        padding: 20px;
+        border-radius: 0 0 0 19px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 150px;
+    }
+
+    .reagendar_minhas_consultas {
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: var(--green);
+        border: 0;
+        padding: 15px;
+        border-radius: 300px;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 150px;
+    }
+
+    .article_minhas_consultas {
+        margin: 9px -118px 0px 10px;
+        width: 120px;
+    }
+
+    .aside_minhas_consultas {
+        display: flex;
+    }
+
+    .article_minhas_consultas p {
+        font-size: 0.7rem;
+        color: var(--green);
+    }
+
+    /* minhas_consultas */
+
+    /* pccp */
+
+    .pccp_header {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px 15px;
+    }
+
+    .bg_pccp {
+        background-color: #ffffff7c;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 1000000;
+        margin: -65px 0 0 0;
+        display: none;
+        z-index: 2;
+        position: absolute;
+        transition: ease-in-out 2s;
+
+    }
+
+    .hamburguer {
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        transition: ease-in-out 2s;
+    }
+
+
+    .modal {
+        background-color: var(--green);
+        width: 270px;
+        height: 260px;
+        z-index: 10000000000;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 25px 25px;
+        padding: 15px 25px;
+        color: #fff;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        z-index: 1000000000000000000000000000000;
+        position: absolute;
+        transition: ease-in-out 2s;
+    }
+
+    .hamburguer:hover {
+        background-color: #c9c9c9;
+    }
+
+    .hamburguer1,
+    .hamburguer2,
+    .hamburguer3 {
+        background-color: var(--green);
+        width: 30px;
+        height: 4px;
+        border-radius: 5000px;
+        margin-bottom: 3px;
+    }
+
+    .hamburguer3 {
+        margin-bottom: 0;
+    }
+
+    .logo_pccp {
+        max-width: 240px;
+        width: 100%;
+    }
+
+    .psicologia_pccp p {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: var(--green);
+    }
+
+    .psicologia_pccp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .psicologia_pccp img {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .pccp_main {
+        margin-top: 40px;
+    }
+
+    .pccp_1_main {
+        margin-bottom: 10px;
+    }
+
+    .pccp_1_main,
+    .pccp_2_main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list_menu_pccp a:hover {
+        text-decoration: double;
+    }
+
+    .list_menu_pccp a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .list_menu_pccp {
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_profile_pccp p {
+        margin-left: 8px;
+        font-size: 1rem;
+    }
+
+    .profile_pccp {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .photo img:nth-child(1) {
+        max-width: 100px;
+        width: 100%;
+    }
+
+    .photo img:nth-child(2) {
+        max-width: 29px;
+        position: absolute;
+        z-index: 1111111111111;
+        inset: 96px 0 0 105px;
+    }
+
+    .photo {
+        border-radius: 1000px;
+    }
+
+    /* pccp */
+
+    /* psicologos */
+
+    .carrossel_psicologos_1 {
+        background-color: var(--green);
+        width: 200px;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .info_psicologos img {
+        width: 100%;
+        max-width: 30px;
+    }
+
+    .article_psicologos {
+        margin: 12px 0 0 5px;
+    }
+
+    .article_psicologos h2,
+    .article_psicologos h3 {
+        margin-left: 25px;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .circle_psicologos {
+        width: 190px;
+        height: 190px;
+        z-index: 10000000000;
+        position: relative;
+        background-color: var(--greenblack);
+        border-radius: 200px;
+        margin: 50px 0 0 100px;
+    }
+
+    .seja_bem_vindo_asd {
+        display: flex;
+        overflow: auto;
+        width: 455px;
+    }
+
+    .carrossel_psicologos2 {
+        margin-left: 110px;
+    }
+
+    #circle_psicologos1 {
+        width: 300px;
+        height: 200px;
+        top: 200px;
+        margin-top: -200px;
+        margin-right: -100px;
+        position: relative;
+    }
+
+    #circle_psicologos2 {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        z-index: 1000000000000000000;
+        margin-top: -200px;
+        margin-right: -100px;
+    }
+
+    #circle_psicologos3 {
+        width: 300px;
+        height: 200px;
+        position: relative;
+        top: 200px;
+        z-index: 1000000000000000000;
+        margin-top: -200px;
+        margin-right: -100px;
+    }
+
+    #menu_circle_psicologos1,
+    #menu_circle_psicologos2,
+    #menu_circle_psicologos3 {
+        z-index: 1000000000;
+        position: relative;
+        margin-top: 15px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    #menu_circle_psicologos1:checked~.menu_circle_psicologos_icon1 {
+        background-color: var(--greenblack);
+    }
+
+    .menu_circle_psicologos_icon1 {
+        background-color: var(--green);
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -20px 0 0 -3px;
+        position: relative;
+    }
+
+    #menu_circle_psicologos2:checked~.menu_circle_psicologos_icon2 {
+        background-color: var(--greenblack);
+    }
+
+    #menu_circle_psicologos2 {
+        margin: 0 15px;
+    }
+
+    .menu_circle_psicologos_icon2 {
+        background-color: var(--green);
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -20px 0 0 29px;
+        position: relative;
+    }
+
+    #menu_circle_psicologos3:checked~.menu_circle_psicologos_icon3 {
+        background-color: var(--greenblack);
+    }
+
+    .menu_circle_psicologos_icon3 {
+        background-color: var(--green);
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -20px 0 0 60px;
+        position: relative;
+    }
+
+
+
+    /* psicologos */
+
+}
+
+@media screen and (min-width:650px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 69% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 100% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 59% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 75% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 100% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:950px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 55% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 35% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 45% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:1150px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 45% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}
+
+@media screen and (min-width:1250px) {
+    .home {
+        background-image: url(../img/senhora.png);
+        background-size: 30% 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-color: #e5e8ed;
+    }
+}

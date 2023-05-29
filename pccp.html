@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="modal">
+        <div class="profile_pccp">
+            <div class="photo">
+                <img src="img/photo_pccp.png" alt="" class="photo">
+                <img src="img/paint.png" alt="" class="photo">
+            </div>
+            <article class="text_profile_pccp">
+                <p>Vitória</p>
+                <p>185.745.456-69</p>
+            </article>
+        </div>
+        <article class="list_menu_pccp">
+            <a href="">Minha Conta</a>
+            <a href="pagamento.html">Pagamento</a>
+            <a href="minhas_consultas.html">Minhas Consultas</a>
+            <a href="">Configurações</a>
+            <a href="index.html">Sair</a>
+        </article>
+    </div>
+    <header class="pccp_header">
+        <div class="hamburguer">
+            <div class="hamburguer1"></div>
+            <div class="hamburguer2"></div>
+            <div class="hamburguer3"></div>
+        </div>
+    </header>
+    <div class="seja_bem_vindo">
+        <img src="img/logo_home.png" class="logo_pccp" alt="logo">
+        <main class="pccp_main">
+            <div class="pccp_1_main">
+                <div class="psicologia_pccp" style="margin-right: 10px;" onclick="window.location.href='psicologos.html'">
+                    <img src="img/psicologigos.png" alt="Psicológia">
+                    <p>Psicológos</p>
+                </div>
+                <div class="psicologia_pccp" style="margin-left: 10px;" onclick="window.location.href='minhas_consultas.html'">
+                    <img src="img/consulta.png" alt="Consulta">
+                    <p>Consulta</p>
+                </div>
+            </div>
+            <div class="pccp_2_main">
+                <div class="psicologia_pccp" style="margin-right: 10px;" onclick="window.location.href='minhas_consultas_marca.html'">
+                    <img src="img/cancelar_consulta.png" alt="Cancelar Consulta">
+                    <p>Cancelar Consulta</p>
+                </div>
+                <div class="psicologia_pccp" style="margin-left: 10px;" onclick="window.location.href='pagamento.html'">
+                    <img src="img/pagamento.png" alt="Pagamento">
+                    <p>Pagamento</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="bg_pccp"></div>
+    <script>
+        const hamburguer = document.querySelector(".hamburguer");
+        const modal = document.querySelector(".modal");
+        const bg_pccp = document.querySelector(".bg_pccp");
+
+        hamburguer.addEventListener('click', () => {
+            if (modal.style.display !== 'flex') {
+                modal.style.display = 'flex';
+                bg_pccp.style.display = 'flex';
+            }
+        });
+
+        bg_pccp.addEventListener('click', () => {
+            if (bg_pccp.style.display !== 'none') {
+                bg_pccp.style.display = 'none';
+                modal.style.display = 'none'
+            }
+        });
+    </script>
+</body>
+
+</html>

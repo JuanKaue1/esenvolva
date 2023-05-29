@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #e5e7ea;">
+    <header>
+        <img onclick="window.location.href='pccp.html'" src="img/volta.png" alt="volta" class="volta_img_seja">
+    </header>
+    <main class="seja_bem_vindo">
+        <aside id="aside_pagamento aside_pagamento2">
+            <p class="seja_bem_vindo_pagaa" style="width: 141px;">Pagamento</p>
+            <p class="seja_bem_vindo_paga">Realize o pagamento antecipado de sua consultas.</p>
+            <div class="dr_sua_consulta">Cartão Débito</div>
+            <div class="dr_sua_consulta">Cartão Crédito</div>
+            <div class="maio_sua_consulta">Pix</div>
+            <div class="dr_sua_consulta">Link de Pagamento</div>
+        </aside>
+        <aside class="seja_bem_vindo_2">
+            <div class="dr_sua_consulta">Boleto Bancário</div>
+        </aside>
+        <img onclick="window.location.href='pccp.html'"  src="img/volta.png" alt="volta" class="seja_bem_vindo__imga">
+    </main>
+    <div class="modal_img">
+        <img src="img/qr.png" alt="" class="qr_pagamento">
+        <img onclick="window.location.href='pccp.html'"  src="img/volta.png" alt="volta" class="seja_bem_vindo__img">
+    </div>
+    <div class="bg_pagamento"></div>
+    <script>
+        const maio_sua_consulta = document.querySelector('.maio_sua_consulta');
+        const modal_img = document.querySelector('.modal_img');
+        const bg_pagamento = document.querySelector('.bg_pagamento');
+
+        maio_sua_consulta.addEventListener('click', () => {
+            if (modal_img.style.display !== 'flex') {
+                modal_img.style.display = 'flex';
+                bg_pagamento.style.display = 'flex';
+            }
+        });
+        
+        bg_pagamento.addEventListener('click', () => {
+            if (modal_img.style.display !== 'none') {
+                modal_img.style.display = 'none';
+                bg_pagamento.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
