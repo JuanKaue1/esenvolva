@@ -1117,6 +1117,7 @@
         padding: 5px 8px;
         border-radius: 1000px;
         color: #fff;
+        cursor: pointer;
     }
 
     .dr1_1 {
@@ -1192,6 +1193,7 @@
         padding: 5px 8px;
         border-radius: 1000px;
         color: #fff;
+        cursor: pointer;
     }
 
     .dr1_1--2 {
@@ -1266,6 +1268,7 @@
         padding: 5px 8px;
         border-radius: 1000px;
         color: #fff;
+        cursor: pointer;
     }
 
     .dr1_1--2__3 {
@@ -2409,8 +2412,8 @@
     /* dr1 */
 
     .profile_dr1 {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         margin-right: 10px;
         border-radius: 20000px;
         background-color: var(--greenblack);
@@ -2418,8 +2421,8 @@
 
     .dr1 {
         background-color: var(--green);
-        width: 320px;
-        height: 342px;
+        width: 570px;
+        height: 510px;
         z-index: 999999999999999;
         position: absolute;
         display: none;
@@ -2429,15 +2432,16 @@
         flex-direction: column;
         color: #fff;
         align-items: flex-start;
-        padding: 20px;
+        padding: 35px;
     }
 
     .agendar_dr1 {
         background-color: var(--greenblack);
         border: 0;
-        padding: 5px 8px;
+        padding: 8px 15px;
         border-radius: 1000px;
         color: #fff;
+        cursor: pointer;
     }
 
     .dr1_1 {
@@ -2447,10 +2451,11 @@
 
     .text_dr1 {
         color: #fff;
+        font-size: 2rem;
     }
 
     .text_dr2 {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .br_dr2 {
@@ -2459,7 +2464,7 @@
 
     .dr1_3 {
         display: flex;
-        width: 280px;
+        width: 495px;
         flex-direction: row-reverse
     }
 
@@ -2484,8 +2489,8 @@
     }
 
     .profile_dr1--2 {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         margin-right: 10px;
         border-radius: 20000px;
         background-color: var(--greenblack);
@@ -2493,8 +2498,8 @@
 
     .dr1--2 {
         background-color: var(--green);
-        width: 320px;
-        height: 342px;
+        width: 570px;
+        height: 510px;
         z-index: 999999999999999;
         position: absolute;
         display: none;
@@ -2504,15 +2509,16 @@
         flex-direction: column;
         color: #fff;
         align-items: flex-start;
-        padding: 20px;
+        padding: 35px;
     }
 
     .agendar_dr1--2 {
         background-color: var(--greenblack);
         border: 0;
-        padding: 5px 8px;
+        padding: 8px 15px;
         border-radius: 1000px;
         color: #fff;
+        cursor: pointer;
     }
 
     .dr1_1--2 {
@@ -2522,10 +2528,11 @@
 
     .text_dr1--2 {
         color: #fff;
+        font-size: 1.5rem;
     }
 
     .text_dr2--2 {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .br_dr2--2 {
@@ -2534,7 +2541,7 @@
 
     .dr1_3--2 {
         display: flex;
-        width: 280px;
+        width: 495px;
         flex-direction: row-reverse
     }
 
@@ -2558,8 +2565,8 @@
     }
 
     .profile_dr1--2__3 {
-        width: 70px;
-        height: 70px;
+        width: 100px;
+        height: 100px;
         margin-right: 10px;
         border-radius: 20000px;
         background-color: var(--greenblack);
@@ -2567,8 +2574,8 @@
 
     .dr1--2__3 {
         background-color: var(--green);
-        width: 320px;
-        height: 342px;
+        width: 570px;
+        height: 510px;
         z-index: 999999999999999;
         position: absolute;
         display: none;
@@ -2578,15 +2585,16 @@
         flex-direction: column;
         color: #fff;
         align-items: flex-start;
-        padding: 20px;
+        padding: 35px;
     }
 
     .agendar_dr1--2__3 {
         background-color: var(--greenblack);
         border: 0;
-        padding: 5px 8px;
+        padding: 8px 15px;
         border-radius: 1000px;
         color: #fff;
+        cursor: pointer;
     }
 
     .dr1_1--2__3 {
@@ -2596,10 +2604,11 @@
 
     .text_dr1--2__3 {
         color: #fff;
+        font-size: 1.5rem;
     }
 
     .text_dr2--2__3 {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .br_dr2--2__3 {
@@ -2608,7 +2617,7 @@
 
     .dr1_3--2__3 {
         display: flex;
-        width: 280px;
+        width: 495px;
         flex-direction: row-reverse
     }
 
