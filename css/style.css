@@ -1083,7 +1083,9 @@
 
 @media screen and (min-width:320px) {
 
-
+    .maio {
+        margin: 0;
+    }
 
     .seja_bem_vindo_aside_h8 {
         color: var(--green);
@@ -1594,6 +1596,7 @@
     .mes5,
     .mes6 {
         display: flex;
+        margin: 1px 9px 0 0;
     }
 
     .mes1 p {
@@ -1657,7 +1660,7 @@
     }
 
     .maio {
-        margin: 0;
+        margin: 0 30px;
     }
 
     /* para_qual_dia */
