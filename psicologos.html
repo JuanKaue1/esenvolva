@@ -23,10 +23,10 @@
                 <div id="circle_psicologos1"></div>
                 <div class="carrossel_psicologos_1">
                     <div class="info_psicologos">
-                        <img src="img/info.png" alt="">
+                        <img src="img/info.png" alt="" id="dr_11">
                     </div>
                     <div class="circle_psicologos"></div>
-                    <article class="article_psicologos" >
+                    <article class="article_psicologos">
                         <h2 style="color: #fff;">Dr. Nalany</h2>
                         <h3 style="color: #fff;">Psicologa</h3>
                     </article>
@@ -38,7 +38,7 @@
                 <div id="circle_psicologos2"></div>
                 <div class="carrossel_psicologos_1">
                     <div class="info_psicologos">
-                        <img src="img/info.png" alt="">
+                        <img src="img/info.png" alt="" id="dr_22">
                     </div>
                     <div class="circle_psicologos"></div>
                     <article class="article_psicologos">
@@ -53,7 +53,7 @@
                 <div id="circle_psicologos3"></div>
                 <div class="carrossel_psicologos_1">
                     <div class="info_psicologos">
-                        <img src="img/info.png" alt="">
+                        <img src="img/info.png" alt="" id="dr_33__3">
                     </div>
                     <div class="circle_psicologos"></div>
                     <article class="article_psicologos">
@@ -81,6 +81,143 @@
     </main>
 
     </div>
+    <!--  -->
+    <div class="dr1--2__3">
+        <aside class="dr1_1--2__3">
+            <div class="profile_dr1--2__3"></div>
+            <div class="text_dr1--2__3">Dr. Nalany<br>Psicológos </div>
+        </aside>
+        <aside class="dr1_2--2__3">
+            <div class="text_dr2--2__3">
+                “A psicanálise é em essência uma <br>
+                cura pelo amor”<div class="br_dr2--2"></div>
+                A Dra. Nalany é uma psicóloga que trabalha <br>
+                na clínica Desenvolva em Campina Grande. <br>
+                Ela é especializada em ajudar pacientes a lidar <br>
+                com problemas emocionais e comportamentais, <br>
+                como ansiedade, depressão, estresse e problemas <br>
+                de relacionamento.<div class="br_dr2--2"></div>
+                Formada na UFCG<br>
+                CRECI 12841/-55<br style="">
+            </div>
+        </aside>
+        <aside class="dr1_3--2__3">
+            <button class="agendar_dr1--2__3" onclick="window.location.href='para_qual_dia.html'">
+                Agender Consulta
+            </button>
+        </aside>
+    </div>
+    <div class="dr1_bg__2__3"></div>
+    <!--  -->
+    <div class="dr1--2">
+        <aside class="dr1_1--2">
+            <div class="profile_dr1--2"></div>
+            <div class="text_dr1--2">Dr. Edgle<br>Psicológos </div>
+        </aside>
+        <aside class="dr1_2--2">
+            <div class="text_dr2--2">
+                “A psicanálise é em essência uma <br>
+                cura pelo amor”<div class="br_dr2--2"></div>
+                A Dra. Nalany é uma psicóloga que trabalha <br>
+                na clínica Desenvolva em Campina Grande. <br>
+                Ela é especializada em ajudar pacientes a lidar <br>
+                com problemas emocionais e comportamentais, <br>
+                como ansiedade, depressão, estresse e problemas <br>
+                de relacionamento.<div class="br_dr2--2"></div>
+                Formada na UFCG<br>
+                CRECI 12841/-55<br style="">
+            </div>
+        </aside>
+        <aside class="dr1_3--2">
+            <button class="agendar_dr1--2" onclick="window.location.href='para_qual_dia.html'">
+                Agender Consulta
+            </button>
+        </aside>
+    </div>
+    <div class="dr1_bg__2"></div>
+    <!--  -->
+
+    <div class="dr1">
+        <aside class="dr1_1">
+            <div class="profile_dr1"></div>
+            <div class="text_dr1">Dr. Nalany<br>Psicológos </div>
+        </aside>
+        <aside class="dr1_2">
+            <div class="text_dr2">
+                “A psicanálise é em essência uma <br>
+                cura pelo amor”<div class="br_dr2"></div>
+                A Dra. Nalany é uma psicóloga que trabalha <br>
+                na clínica Desenvolva em Campina Grande. <br>
+                Ela é especializada em ajudar pacientes a lidar <br>
+                com problemas emocionais e comportamentais, <br>
+                como ansiedade, depressão, estresse e problemas <br>
+                de relacionamento.<div class="br_dr2"></div>
+                Formada na UFCG<br>
+                CRECI 12841/-55<br style="">
+            </div>
+        </aside>
+        <aside class="dr1_3">
+            <button class="agendar_dr1" onclick="window.location.href='para_qual_dia.html'">
+                Agender Consulta
+            </button>
+        </aside>
+    </div>
+    <div class="dr1_bg"></div>
+    <!--  -->
+    <script>
+        const dr1 = document.querySelector('.dr1');
+        const dr1_bg = document.querySelector('.dr1_bg');
+        const dr_11 = document.querySelector('#dr_11');
+        // 
+        dr_11.addEventListener('click', () => {
+            if (dr1.style.display !== 'flex') {
+                dr1.style.display = 'flex';
+                dr1_bg.style.display = 'flex';
+            }
+        });
+
+        dr1_bg.addEventListener('click', () => {
+            if (dr1.style.display !== 'none') {
+                dr1.style.display = 'none';
+                dr1_bg.style.display = 'none';
+            }
+        });
+        const dr1__2 = document.querySelector('.dr1--2');
+        const dr1_bg__2 = document.querySelector('.dr1_bg__2');
+        const dr_22 = document.querySelector('#dr_22');
+
+        dr_22.addEventListener('click', () => {
+            if (dr1__2.style.display !== 'flex') {
+                dr1__2.style.display = 'flex';
+                dr1_bg__2.style.display = 'flex';
+            }
+        });
+
+        dr1_bg__2.addEventListener('click', () => {
+            if (dr1__2.style.display !== 'none') {
+                dr1__2.style.display = 'none';
+                dr1_bg__2.style.display = 'none';
+            }
+        });
+        // 
+        const dr1__2__3 = document.querySelector('.dr1--2__3');
+        const dr1_bg__2__3 = document.querySelector('.dr1_bg__2__3');
+        const dr_33__3 = document.querySelector('#dr_33__3');
+
+        dr_33__3.addEventListener('click', () => {
+            if (dr1__2__3.style.display !== 'flex') {
+                dr1__2__3.style.display = 'flex';
+                dr1_bg__2__3.style.display = 'flex';
+            }
+        });
+
+        dr1_bg__2__3.addEventListener('click', () => {
+            if (dr1__2__3.style.display !== 'none') {
+                dr1__2__3.style.display = 'none';
+                dr1_bg__2__3.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 
 </html>
